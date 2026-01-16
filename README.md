@@ -13,13 +13,9 @@ The system allows students and lecturers to report classroom issues, enables mai
 > **Note:**  
 > This project was developed as part of an academic **team project**.  
 > The technologies and system architecture were learned and implemented through extensive self-driven learning beyond the course material.
-
+>This project was intentionally developed as an MVP, focusing on core functionality, system design, and product flow rather than production-scale optimizations.
+> Security mechanisms (such as advanced authentication, authorization, and hardening) were deliberately kept minimal, as the primary goal was to validate the system architecture and end-to-end workflows.
 ---
-This project was intentionally developed as an MVP, focusing on core functionality, system design, and product flow rather than production-scale optimizations.
-
-<h4>Security mechanisms (such as advanced authentication, authorization, and hardening) were deliberately kept minimal, as the primary goal was to validate the system architecture and end-to-end workflows.</h4>
-
-
 
 ## Project Description
 Smart Campus is an academic campus management system focused on classroom infrastructure and room reservations.
@@ -126,6 +122,7 @@ Tests are executed using `pytest` and validate that all core functions behave as
   (additional roles, enhanced UI, integration with external systems).
 - The code emphasizes readability, maintainability, and separation of concerns.
 - Before running the application, the `seed.py` file should be executed via the terminal to seed initial demo data.
+
 
 
 
