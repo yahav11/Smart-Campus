@@ -1,5 +1,4 @@
 # Smart Campus  
-**BS-SEF 2025 – Team 6**
 
 Live Demo 👾  
 https://smart-campus-v32n.onrender.com
@@ -122,3 +121,4 @@ Tests are executed using `pytest` and validate that all core functions behave as
   (additional roles, enhanced UI, integration with external systems).
 - The code emphasizes readability, maintainability, and separation of concerns.
 - Before running the application, the `seed.py` file should be executed via the terminal to seed initial demo data.
+
