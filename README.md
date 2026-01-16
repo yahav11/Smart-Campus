@@ -1,133 +1,124 @@
-
-BS-SEF 2025 – Team 6   🫶
-Smart campus system for classroom availability and issue management.
-
-
-Live demo👾 : https://smart-campus-v32n.onrender.com
-# Smart Campus📚
-
+# Smart Campus  
 **BS-SEF 2025 – Team 6**
 
+Live Demo 👾  
+https://smart-campus-v32n.onrender.com
+
+---
+
+## Overview
 Smart Campus is a system for classroom availability, reservations, and infrastructure issue management in an academic campus.
 
----
+The system allows students and lecturers to report classroom issues, enables maintenance staff to manage and resolve reports, and provides lecturers with smart classroom reservation capabilities based on real availability.
 
-## תיאור הפרויקט
-
-Smart Campus היא מערכת לניהול תשתיות ושריוני כיתות בקמפוס אקדמי.
-המערכת מאפשרת לסטודנטים ולמרצים לדווח על תקלות בכיתות, לצוות התחזוקה לנהל ולטפל בדיווחים, ולמרצים לבצע שריוני כיתות תוך בדיקת זמינות חכמה.
-
-המערכת מתחשבת הן בשריונים קיימים והן במערכת שעות שבועית קבועה, ומספקת ממשק אחיד לניהול משאבים פיזיים בקמפוס.
-
-הפרויקט פותח כחלק מקורס אקדמי, תוך הקפדה על עבודה נכונה עם מסדי נתונים, הפרדת אחריות בין רכיבים וכתיבת בדיקות יחידה.
+> **Note:**  
+> This project was developed as part of an academic **team project**.  
+> The technologies and system architecture were learned and implemented through extensive self-driven learning beyond the course material.
 
 ---
 
-## מטרות המערכת
+## Project Description
+Smart Campus is an academic campus management system focused on classroom infrastructure and room reservations.
 
-* ייעול תהליך דיווח תקלות בכיתות
-* מניעת כפילויות בדיווחים זהים
-* ניהול חכם של זמינות כיתות
-* שמירה על אמינות נתונים באמצעות בדיקות אוטומטיות
-* עבודה עם מסד נתונים בצורה מבודדת ובטוחה
+The system supports:
+- Reporting classroom issues by students and lecturers
+- Centralized issue handling and status management by maintenance staff
+- Smart classroom reservations based on real availability
 
----
+The availability logic takes into account both:
+- Existing reservations  
+- A fixed weekly schedule  
 
-## תפקידי משתמשים👨‍🎓👨‍🏫👨‍💻
+This provides a unified and reliable interface for managing physical campus resources.
 
-* **סטודנט** – דיווח תקלות בכיתות ושריון כיתות
-* **מרצה** – דיווח תקלות ושריון כיתות
-* **איש צוות תפעול** – טיפול בדיווחים וניהול סטטוסים
-
----
-
-## פונקציונליות עיקרית
-
-### ניהול משתמשים ואימות
-
-* יצירת משתמשים לפי תפקיד מוגדר
-* אימות משתמשים באמצעות סיסמה
-* מניעת יצירת משתמשים עם תפקיד לא חוקי
-
-### ניהול דיווחי תקלות
-
-* יצירת דיווח חדש עם פרטי חדר, קטגוריה ותיאור
-* שמירת דיווחים במסד הנתונים
-* סטטוס התחלתי פתוח (open)
-* סגירה אוטומטית של קבוצת דיווחים זהים
-  (אותו חדר, אותה קטגוריה, אותה שעה)
-* שינוי סטטוס דיווח ל־done
-
-### ניהול שריוני כיתות
-
-* בדיקת זמינות כיתה לפי תאריך וטווח שעות
-* יצירת שריון חדש רק כאשר הכיתה פנויה
-* ביטול שריון קיים ושינוי הסטטוס שלו
-* מניעת חפיפה בין שריונים
-
-### שאילתות זמינות כיתות
-
-* החזרת רשימת כיתות פנויות בטווח זמן נתון
-* התחשבות בשריונים קיימים ובמערכת שעות שבועית
-* הצגת מידע מפורט על הכיתה
-  (סוג, מקרן, מספר מקומות)
-* חישוב חלונות זמן פנויים מקסימליים לכל כיתה
+The project was developed as part of an academic course, with emphasis on:
+- Proper database design
+- Separation of responsibilities between system components
+- Writing and maintaining unit tests
 
 ---
 
-## ארכיטקטורה וטכנולוגיות👾
-
-* **שפת תכנות:** Python
-* **Backend:** Flask
-* **מסד נתונים:** SQLite
-* **ניהול גרסאות:** Git + GitHub
-* **בדיקות:** pytest
-
----
-
-## בדיקות יחידה (Unit Tests)📝
-
-המערכת כוללת בדיקות יחידה מקיפות עבור פונקציות הליבה, ביניהן:
-
-* אימות משתמשים וניהול הרשאות
-* יצירה וניהול דיווחי תקלות
-* זמינות כיתות ושריונים
-* שאילתות מורכבות על מסד הנתונים
-
-כל בדיקה רצה על מסד נתונים זמני ומבודד, הנוצר בזמן הריצה, על מנת למנוע פגיעה בנתוני אמת ולהבטיח אמינות תוצאות.
+## System Goals
+- Streamline the classroom issue reporting process
+- Prevent duplicate reports for identical issues
+- Enable smart classroom availability management
+- Ensure data reliability using automated tests
+- Work with the database in a safe and isolated manner
 
 ---
 
-## הרצת בדיקות
-
-הבדיקות מורצות באמצעות pytest ומוודאות שכל פונקציות הליבה מתנהגות כמצופה, כולל בתרחישי קצה.
-
----
-
-## Requirements‼️
-
-* Flask
-* python-dotenv
-* openai
-* tzdata
+## User Roles 👨‍🎓👨‍🏫👨‍💻
+- **Student** – Report classroom issues and reserve classrooms
+- **Lecturer** – Report issues and reserve classrooms
+- **Maintenance Staff** – Handle reports and manage issue statuses
 
 ---
 
-## הערות📌
+## Core Functionality
 
-* המערכת תוכננה כך שניתן להרחיב אותה בעתיד
-  (תפקידים נוספים, ממשק משתמש מתקדם, חיבור למערכות חיצוניות).
-* הקוד נכתב תוך הקפדה על קריאות, תחזוקתיות ובידוד בין רכיבים.
+### User Management & Authentication
+- User creation based on predefined roles
+- Password-based authentication
+- Prevention of unauthorized role creation
 
-בנוסף, יש להריץ לפני הרצת האפליקציה יש להריץ קובץ `seed.py` דרך הטרמינל,
-על מנת **לזרוע נתונים ראשוניים** עבור הדמו.
+### Issue Reporting Management
+- Creation of new issue reports with room, category, and description
+- Persistent storage of reports in the database
+- Initial report status set to `open`
+- Automatic grouping and closure of identical reports  
+  (same room, same category, same time window)
+- Manual status updates to `done`
+
+### Classroom Reservation Management
+- Availability checks by date and time range
+- Creation of reservations only when classrooms are available
+- Cancellation of existing reservations and status updates
+- Prevention of overlapping reservations
+
+### Classroom Availability Queries
+- Retrieval of available classrooms within a given time range
+- Consideration of both existing reservations and weekly schedules
+- Display of detailed classroom information  
+  (room type, projector availability, seating capacity)
+- Calculation of maximal free time windows per classroom
 
 ---
 
+## Architecture & Technologies 👾
+- **Programming Language:** Python  
+- **Backend:** Flask  
+- **Database:** SQLite  
+- **Version Control:** Git & GitHub  
+- **Testing:** pytest  
 
+---
 
+## Unit Testing 📝
+The system includes comprehensive unit tests covering core functionality, including:
+- User authentication and authorization
+- Issue report creation and management
+- Classroom availability and reservations
+- Complex database queries
 
+Each test runs on an isolated, temporary database created at runtime to prevent interference with real data and to ensure reliable test results.
 
+---
 
+## Running Tests
+Tests are executed using `pytest` and validate that all core functions behave as expected, including edge cases.
 
+---
 
+## Requirements ‼️
+- Flask  
+- python-dotenv  
+- openai  
+- tzdata  
+
+---
+
+## Notes 📌
+- The system was designed with future extensibility in mind  
+  (additional roles, enhanced UI, integration with external systems).
+- The code emphasizes readability, maintainability, and separation of concerns.
+- Before running the application, the `seed.py` file should be executed via the terminal to seed initial demo data.
