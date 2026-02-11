@@ -2,6 +2,19 @@
 
 Live Demo 👾  
 https://smart-campus-v32n.onrender.com
+## 🔐 Demo Login Credentials
+
+Authentication is required to access the system.
+
+The application includes predefined demo users for testing different roles:
+
+| Role               | ID        | Password |
+|--------------------|-----------|----------|
+| Maintenance Staff  | 555555555 | 123      |
+| Lecturer           | 987654321 | 123      |
+| Student            | 123456789 | 123      |
+
+**Note:** These accounts are intended for demonstration purposes only.
 
 ---
 
@@ -122,6 +135,7 @@ Tests are executed using `pytest` and validate that all core functions behave as
   (additional roles, enhanced UI, integration with external systems).
 - The code emphasizes readability, maintainability, and separation of concerns.
 - Before running the application, the `seed.py` file should be executed via the terminal to seed initial demo data.
+
 
 
 
