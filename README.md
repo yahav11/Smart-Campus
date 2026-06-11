@@ -31,7 +31,7 @@ The system allows students and lecturers to report classroom issues, enables mai
 ---
 ## Screenshots
 **Login**
-![Login screen](screenshots/Login.png)
+![Login screen](screenshots/Login(2).png)
 
 **Student interface**
 ![Student Main Screen](screenshots/studentI.png)
