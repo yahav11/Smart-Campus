@@ -30,9 +30,15 @@ The system allows students and lecturers to report classroom issues, enables mai
 > Security mechanisms (such as advanced authentication, authorization, and hardening) were deliberately kept minimal, as the primary goal was to validate the system architecture and end-to-end workflows.
 ---
 ## Screenshots
-**Student interface**
+**Login**
+![Login screen](screenshots/Login.png)
 
-** Maintenance Staff  interface**
+**Student interface**
+![Student Main Screen](screenshots/studentI.png)
+
+**Maintenance Staff  interface**
+![Staff main Screen](screenshots/staffI.png)
+
 ---
 ## Project Description
 Smart Campus is an academic campus management system focused on classroom infrastructure and room reservations.
