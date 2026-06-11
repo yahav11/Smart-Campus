@@ -29,7 +29,11 @@ The system allows students and lecturers to report classroom issues, enables mai
 >This project was intentionally developed as an MVP, focusing on core functionality, system design, and product flow rather than production-scale optimizations.
 > Security mechanisms (such as advanced authentication, authorization, and hardening) were deliberately kept minimal, as the primary goal was to validate the system architecture and end-to-end workflows.
 ---
+## Screenshots
+**Student interface**
 
+** Maintenance Staff  interface**
+---
 ## Project Description
 Smart Campus is an academic campus management system focused on classroom infrastructure and room reservations.
 
